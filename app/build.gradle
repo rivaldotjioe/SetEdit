@@ -9,7 +9,7 @@ android {
         applicationId "io.github.muntashirakon.setedit"
         minSdk 21
         //noinspection ExpiredTargetSdkVersion
-        targetSdk 22
+        targetSdk 33
         versionCode 8
         versionName "2.3"
         resConfig "en"
@@ -27,7 +27,7 @@ android {
     externalNativeBuild {
         cmake {
             path "CMakeLists.txt"
-            version "3.10.2"
+            version "3.22.1"
         }
     }
 
